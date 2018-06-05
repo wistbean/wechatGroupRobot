@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.bladejava:blade-kit:1.2.9-alpha">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/bladejava/blade-kit/1.2.9-alpha/blade-kit-1.2.9-alpha.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/bladejava/blade-kit/1.2.9-alpha/blade-kit-1.2.9-alpha-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/bladejava/blade-kit/1.2.9-alpha/blade-kit-1.2.9-alpha-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
