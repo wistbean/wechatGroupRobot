@@ -573,16 +573,24 @@ public class WechatGroupRobotImpl implements WechatGroupRobotInterface{
                 } else {
 //                    logger.info(name + ": " + content + ": " );
                     String[] peopleContent = content.split(":<br/>");
-                    logger.info("|" + name + "| " + peopleContent[0] + ":\n" + peopleContent[1].replace("<br/>", "\n"));
+//                    logger.info("|" + name + "| " + peopleContent[0] + ":\n" + peopleContent[1].replace("<br/>", "\n"));
                     logger.info("发送者：" + msg.getString("FromUserName"));
                     if(name.equals("wistbean和他的朋友们")){
                         if(this.sendToGroup==null)
-                        this.sendToGroup = msg.getString("FromUserName");
+                            this.sendToGroup = msg.getString("FromUserName");
                     }
 
                     if (content.contains("wistbean的小三")){
-                        String sendMsg = getMsg(peopleContent[1].replace("<br/>", "\n"));
-                        sendMsg(sendMsg + "对了，真的别随便@我，我比较娇贵~", msg.getString("FromUserName"));
+
+                        String sendMsg ;
+
+                        if(peopleContent.length==2){
+                            sendMsg = getMsg(peopleContent[1].replace("@wistbean的小三", ""));
+                        }else{
+                            sendMsg = "别随便@我，我比较娇贵~";
+                        }
+
+                        sendMsg(sendMsg , msg.getString("FromUserName"));
                     }
                 }
             } else if(msgType == 3){
