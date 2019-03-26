@@ -15,14 +15,12 @@
 
 
 # 微信群机器人
-![wechatGroupRobot](http://owx1uvd7t.bkt.clouddn.com/download.png)
+![wechatGroupRobot](https://wistbean.github.io/images/download.png)
 
 # 实现效果
-![wechatGroupRobot](http://owx1uvd7t.bkt.clouddn.com/wechat1.jpg)
-![wechatGroupRobot](http://owx1uvd7t.bkt.clouddn.com/wechat2.jpg)
-![wechatGroupRobot](http://owx1uvd7t.bkt.clouddn.com/wechat3.jpg)
-![wechatGroupRobot](http://owx1uvd7t.bkt.clouddn.com/wechat4.jpg)
+![wechatGroupRobot](https://wistbean.github.io/images/wechat1.jpg)
+![wechatGroupRobot](https://wistbean.github.io/images/wechat2.jpg)
+![wechatGroupRobot](https://wistbean.github.io/images/wechat3.jpg)
+![wechatGroupRobot](https://wistbean.github.io/images/wechat4.jpg)
 
-# 关注我
-![wechatGroupRobot](http://owh7v964r.bkt.clouddn.com/WeChat%20Image_20180608170357.jpg)
 
