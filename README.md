@@ -4,6 +4,8 @@
 
 添加了语音识别的功能
 
+有人添加了本地识别的功能
+
 
 # 实现原理
  https://mp.weixin.qq.com/s/KtgAZzKDf7EYLGAGWrxhrA
